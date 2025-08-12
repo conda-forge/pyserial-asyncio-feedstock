@@ -30,13 +30,10 @@ tests:
   - python:
       imports:
         - serial_asyncio
-      python_version: ${{ python_min }}.*
-  - requirements:
-      run:
-        - pip
-        - python ${{ python_min }}.*
-    script:
-      - pip check
+      pip_check: true
+      python_version:
+        - ${{ python_min }}.*
+        - 3.*
 
 about:
   summary: Python Serial Port Extension - Asynchronous I/O support
