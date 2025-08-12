@@ -11,10 +11,9 @@ Summary: Python Serial Port Extension - Asynchronous I/O support
 
 Development: https://github.com/pyserial/pyserial-asyncio
 
-Documentation: https://pyserial-asyncio.readthedocs.io
+Documentation: https://pyserial-asyncio.readthedocs.io/
 
 Async I/O extension package for the Python Serial Port Extension for OSX, Linux, BSD
-
 
 Current build status
 ====================
